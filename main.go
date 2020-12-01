@@ -8,7 +8,6 @@ func main() {
 	for i := 1; i <= number; i++ {
 		fmt.Println(fib(i))
 	}
-
 }
 func fib(n int) int {
 	if n <= 1 {
